@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lejour</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="lejour.css">
+  <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <div class="lejour_wrap">
+    <header>
+      <div class="header_wrap">
+        <div class="h1_wrap">
+          <h1>
+            <a href="lejour.html" class="ir_pm">르주르</a>
+          </h1>
+        </div>
+        <div class="header_menu">
+          <div class="header_menu_top">
+            <ul class="pc_log">
+              <li><a href="#">login</a></li>
+              <li><a href="#">join</a></li>
+              <li><a href="#" class="search"></a></li>
+              <li><a href="#" class="basket"></a></li>
+            </ul>
+          </div>
+          <div class="header_menu_bottom clearfix">
+            <nav class="le_nav">
+              <h2 class="screen_out">르주르 내비게이션</h2>
+              <ul class="lnb">
+                <li>
+                  <a href="le_sub.html">brand</a>
+                  <div class="brand_list">
+                    <a href="le_sub.html">brandstory</a>
+                  </div>
+                </li>
+                <!--brand-->
+                <li>
+                  <a href="le_sub2.html">product</a>
+                </li>
+                <!--product-->
+                <li>
+                  <a href="#">contents</a>
+                </li>
+                <!--contents-->
+                <li>
+                  <a href="#">community</a>
+                  <div class="commu_list">
+                    <a href="#">event</a>
+                    <a href="#">review</a>
+                    <a href="#">notice</a>
+                    <a href="#">q&a </a>
+                  </div>
+                </li>
+                <!--community-->
+              </ul>
+              <div class="list_wrap">
+                <div class="list">
+                </div>
+              </div>
+            </nav>
+            <button type="button" class="m_btn">
+              <span class="ir_pm">메뉴열기</span>
+              <span></span>
+              <span></span>
+            </button>
+            <!-- mobile nav menu start -->
+            <nav class="m_navi">
+              <h2 class="screen_out">르주르 모바일 네비게이션</h2>
+              <div class="m_topmenu">
+                <a href="#">join us</a>
+                <a href="#">login</a>
+                <a href="#">cart</a>
+                <button type="button" class="close">
+                  <span>메뉴닫기</span>
+                  <span></span>
+                </button>
+              </div>
+              <div class="search">
+                <form name="mobile_form" id="mobile_form" method="post">
+                  <label for="mobile_text"></label>
+                  <input type="text" id="mobile_text" name="mobile_text" size="40
+                  " maxlength="16">
+                  <button type="button"></button>
+                </form>
+              </div>
+              <ul class="m_lnb">
+                <li><a href="le_sub.html">brand</a>
+                  <ul>
+                    <li><a href="#">brandstory</a></li>
+                  </ul>
+                </li>
+                <!--brand-->
+                <li>
+                  <a href="le_sub2.html">product</a>
+                </li>
+                <!--product-->
+                <li>
+                  <a href="#">contents</a>
+                </li>
+                <!--contents-->
+                <li>
+                  <a href="#">community</a>
+                  <ul>
+                    <li><a href="#">event</a></li>
+                    <li><a href="#">review</a></li>
+                    <li><a href="#">notice</a></li>
+                    <li><a href="#">q&a</a></li>
+                  </ul>
+                </li>
+                <!--community-->
+              </ul>
+              <div class="m_snsbox">
+                <a href="https://www.instagram.com/lejour_official/?hl=ko" target="_blank" title="새창"
+                  class="ir_pm">instagram</a>
+                <a href="https://www.facebook.com/lejour.official/" target="_blank" title="새창"
+                  class="ir_pm">facebook</a>
+                <a href="https://www.youtube.com/@user-mp7ol7rc7w" target="_blank" title="새창" class="ir_pm">youtube</a>
+              </div>
+            </nav>
+            <!-- mobile nav menu end -->
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--header end-->
+    <div class="visual">
+      <div class="visual_slide_wrap">
+        <div class="visual_slide_box">
+          <div class="visual_slide01"></div>
+          <div class="visual_slide02"></div>
+          <div class="visual_slide03"></div>
+          <div class="visual_slide04"></div>
+        </div>
+        <div data-aos="fade-right" data-aos-duration="2000" class="text_wrap">
+          <strong>
+            <span>'지친 일상에 작은 여유를 선물하는</span>
+            <span><b>따뜻한 홈 익스피어런스 </b>스토어 르주르'</span>
+          </strong>
+          <p>
+            Like a gift to feel relaxed<span>at the end of a hard day,</span>
+            <b>Your warm experience of home store, Le Jour</b>
+          </p>
+        </div>
+        <div class="visual_btn">
+          <button type="button" class="left">prev</button>
+          <span></span>
+          <button type="button" class="right">next</button>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section class="brand">
+        <div class="brand_wrap">
+          <div class="brand_center">
+            <h2>
+              <svg viewBox="0 0 300 100" id="brand">
+                <text x="0%" y="50%">brand</text>
+              </svg>
+            </h2>
+            <div class="brand_line">
+              <p>about lejour</p>
+              <b></b>
+            </div>
+            <div class="brand_box clearfix">
+              <div data-aos="fade-right" data-aos-offset="300" data-aos-duration="1500" class="brand_img "></div>
+              <div div data-aos="fade-up" data-aos-duration="3000" data-aos-offset="300" class="brand_story">
+                <h3>b r a n d<span>s t o r y</span></h3>
+                <b>The products in Le Jour
+                  consist of elements with fresh energy,
+                  and it is fer-mented to contain warmth along with the harmonious time</b>
+                <p>르주르는
+                  "평범한 일상을 보다 감성적이고 따뜻하게 만들어줄 제품으로 구성하여
+                  따뜻한 사람들이 만든 르주르 세제를 통해 일상의 작은 여유를 선물하고 싶은,
+                  따뜻한 프리미엄 브랜드입니다"</p>
+                <a href="le_sub.html" class="view_btn">
+                  <b></b>
+                  <svg class="progress_circle" height="160" width="160">
+                    <text x="35%" y="55%">
+                      view
+                    </text>
+                    <circle cx="80" cy="80" r="60" style="fill: none; stroke:#000;stroke-width:1;">
+                    </circle>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="best">
+        <div class="best_product_wrap">
+          <div class="product_center">
+            <h2>
+              <svg viewBox="0 5 250 100" id="products">
+                <text x="25%" y="50%">best </text>
+                <text x="0%" y="100%"> products</text>
+              </svg>
+              <svg viewBox="0 0 400 100" id="products_2">
+                <text x="0%" y="50%">best products</text>
+              </svg>
+            </h2>
+            <div class="product_line">
+              <p>lejour's product</p>
+              <b></b>
+            </div>
+            <div class="best_product_img">
+              <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000"
+                data-aos-delay="300" class="best_img01 best_img">
+                <a href="le_sub2.html">
+                  <span></span>
+                  <h3>르주르 패밀리 세트</h3>
+                  <p>91,800원</p>
+                </a>
+              </div>
+              <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000"
+                data-aos-delay="500" class="best_img02 best_img">
+                <a href="le_sub2.html">
+                  <span>
+                    <strong></strong>
+                    <b>new</b>
+                  </span>
+                  <h3>르주르 베이비 세트</h3>
+                  <p>38,000원</p>
+                </a>
+              </div>
+              <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000"
+                data-aos-delay="700" class="best_img03 best_img">
+                <a href="le_sub2.html">
+                  <span></span>
+                  <h3>르주르 일반 섬유유연제</h3>
+                  <p>25,000원</p>
+                </a>
+              </div>
+              <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="1000"
+                data-aos-delay="900" class="best_img04 best_img">
+                <a href="le_sub2.html">
+                  <span></span>
+                  <h3>르주르 주방세제</h3>
+                  <p>17,000원</p>
+                </a>
+              </div>
+              <div class="best_img05 best_img">
+                <a href="le_sub2.html">
+                  <span></span>
+                  <h3>르주르 욕실 클렌저</h3>
+                  <p>18,000원</p>
+                </a>
+              </div>
+              <div class="best_img06 best_img">
+                <a href="#">
+                  <span>
+                    <strong></strong>
+                    <b>new</b>
+                  </span>
+                  <h3>르주르 세탁기 클렌저</h3>
+                  <p>13,000원</p>
+                </a>
+              </div>
+            </div>
+            <div class="pro_btn_wrap">
+              <div href="#" class="pro_btn_top">
+                <button class="pr_btn_left ir_pm">prev</button>
+                <button class="pr_btn_right ir_pm">next</button>
+              </div>
+              <a href="le_sub2.html" class="pro_btn_bottom">
+                more view
+                <svg viewBox="0 0 100 100" class="more_view_1">
+                  <line x1="0" y1="25" x2="105" y2="25" stroke="#333" stroke-width="0.6" />
+                  <!-- <line x1="49" y1="=0" x2="60" y2="12" stroke="#333" stroke-width="0.6"/> -->
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contents">
+        <div class="contents_wrap">
+          <div class="contents_center">
+            <div class="lejour_line">
+              <p>lejour's line</p>
+              <b></b>
+            </div>
+            <div class="classic">
+              <h2>
+                <svg viewBox="0 0 400 100" id="contents">
+                  <text x="1%" y="50%">contents</text>
+                </svg>
+              </h2>
+              <div class="classic_box clearfix">
+                <div data-aos="fade-up" data-aos-offset="300" data-aos-duration="2000" class="classic_img01"></div>
+                <div data-aos="fade-up" data-aos-offset="300" data-aos-duration="2500" class="classic_text_wrap">
+                  <h3>르주르 클래식 라인</h3>
+                  <i>Classic</i>
+                  <p>발표와 숙성 그리고 나노화 기술을 통해 콩, 야자, 자몽 등의 식물성 성분의 효능을 극대화 했으며 르주르만의 특별한 공법이 더해져 높은 세척력과 높은 섬유 유연성을 겸비한 고농축
+                    세탁세제와 섬유유연제입니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="soft">
+              <div class="soft_box clearfix">
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2000" class="soft_img01"></div>
+                <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="2500" class="soft_text_wrap">
+                  <h3>르주르 소프트 라인</h3>
+                  <i>Soft</i>
+                  <p>피부자극 최소화에 도움주는 EGF첨가유아 섬유유연제 USDA오가닉 인증을 받은추출물 등이 첨가되었으며, 고기능성 프리미엄 허브발효EM 사용 등 르주르만의 특별한 공법이 더해져
+                    강한세척력과 섬유유연성효과가 증대되었습니다.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <a href="#" class="contents_view_btn_wrap">
+              more view
+              <svg viewBox="0 0 100 100" class="more_view_2">
+                <line x1="0" y1="25" x2="105" y2="25" stroke="#333" stroke-width="0.6" />
+                <!-- <line x1="49" y1="=0" x2="60" y2="12" stroke="#333" stroke-width="0.6"/> -->
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+      <section class="event">
+        <div class="event_wrap">
+          <h2 class="screen_out">이벤트</h2>
+          <div class="event_slide_wrap">
+            <div class="event_slider">
+              <div class="event_slide_01 ir_pm">주방세제</div>
+              <div class="event_slide_02"></div>
+              <div class="event_slide_03"></div>
+            </div>
+            <div class="event_btn_wrap">
+              <button class="e_btn_left ir_pm">prev</button>
+              <button class="e_btn_right ir_pm">next</button>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="review">
+        <div class="review_wrap">
+          <div class="review_center">
+            <h2>
+              <svg viewBox="0 0 400 100" id="review">
+                <text x="0%" y="50%">review</text>
+              </svg>
+            </h2>
+            <div class="review_line">
+              <p>lejour's review</p>
+              <b></b>
+            </div>
+            <div class="swiper review_slide_box">
+              <div class="swiper-wrapper review_slide">
+                <div class="swiper-slide review_slide01">
+                  <div class="img_box01"></div>
+                  <div class="text_box01">
+                    <h3>르주르 싱글족 세트</h3>
+                    <i>★ ★ ★ ★ ★</i>
+                    <p>선물주기 너무 좋아요 :)
+                      감성 한스푼ㅠㅠ</p>
+                  </div>
+                </div>
+                <div class="swiper-slide review_slide02">
+                  <div class="img_box02"></div>
+                  <div class="text_box02">
+                    <h3>르주르 베이비 세트</h3>
+                    <i>★ ★ ★ ★ ★</i>
+                    <p>첫째 애기때부터(2016년)쭉 쓰던 거예요♡</p>
+                  </div>
+                </div>
+                <div class="swiper-slide review_slide03">
+                  <div class="img_box03"></div>
+                  <div class="text_box03">
+                    <h3>르주르 쇼핑백</h3>
+                    <i>★ ★ ★ ★ ★</i>
+                    <p>예뻐요ㅎㅎ 선물할 때 필수죠!!</p>
+                  </div>
+                </div>
+                <div class="swiper-slide review_slide04">
+                  <div class="img_box04"></div>
+                  <div class="text_box04">
+                    <h3>르주르 주방세제</h3>
+                    <i>★ ★ ★ ★ ★</i>
+                    <p>주방세제는 처음 구매해봤는데,
+                      세척도 잘 되고 너무 좋네요 ^^ 용기도...</p>
+                  </div>
+                </div>
+                <div class="swiper-slide review_slide05">
+                  <div class="img_box05"></div>
+                  <div class="text_box05">
+                    <h3>르주르 삶는 클리닝</h3>
+                    <i>★ ★ ★ ★ ★</i>
+                    <p>삶는 클리닝은 꼭 쟁여놓고 양말
+                      수건 흰빨래에 꼭 사용하고 있어요</p>
+                  </div>
+                </div>
+                <div class="swiper-slide review_slide06">
+                  <div class="img_box06"></div>
+                  <div class="text_box06">
+                    <h3>소프트 베이비 세트</h3>
+                    <i>★ ★ ★ ★ ★</i>
+                    <p>식물성 순한 성분이라 너무 좋은거
+                      같아요^^가격이 조금 비싸긴...</p>
+                  </div>
+                </div>
+                <div class="swiper-slide review_slide07">
+                  <div class="img_box07"></div>
+                  <div class="text_box07">
+                    <h3>르주르 드레스 퍼퓸</h3>
+                    <i>★ ★ ★ ★ ★</i>
+                    <p>향이 은은해서 좋아요 1+1이라 궁금해서 두종류 다 사봤어요</p>
+                  </div>
+                </div>
+                <div class="swiper-slide review_slide08">
+                  <div class="img_box08"></div>
+                  <div class="text_box08">
+                    <h3>르주르 베이비 로션</h3>
+                    <i>★ ★ ★ ★ ★</i>
+                    <p>향기는 거의 무향이라 부담없이 사용가능합니다 발림성도 좋아요</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="review_btn_wrap">
+              <button class="re_btn_left ir_pm">prev</button>
+              <button class="re_btn_right ir_pm">next</button>
+            </div>
+            <a href="#" class="review_mbtn_wrap">
+              more view
+              <svg viewBox="0 0 100 100" class="more_view_3">
+                <line x1="0" y1="25" x2="105" y2="25" stroke="#333" stroke-width="0.6" />
+                <!-- <line x1="49" y1="=0" x2="60" y2="12" stroke="#333" stroke-width="0.6"/> -->
+              </svg>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="lejours_story">
+        <div class="lejours_story_wrap">
+          <div class="lejours_story_center">
+            <h2 class="screen_out">르주르스토리</h2>
+            <div class="magazine">
+              <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="300"
+                class="maga_text">
+                <h3>magazine</h3>
+                <p>르주르의 이야기</p>
+              </div>
+              <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000" data-aos-delay="300"
+                class="maga_img">
+                <div></div>
+              </div>
+            </div>
+            <!--magazine-->
+            <div class="journal">
+              <div data-aos="fade-up" data-aos-duration="1000" data-aos-offset="100" data-aos-delay="900"
+                class="journal_text">
+                <h3>journal</h3>
+                <p>우연함과 낯섦은 <span>우리의 삶을 풍부하게</span></p>
+              </div>
+              <div data-aos="fade-up" data-aos-offset="100" data-aos-duration="1000" data-aos-delay="900"
+                class="journal_img">
+                <div></div>
+              </div>
+            </div>
+            <!--journal-->
+          </div>
+          <div class="lejour_story_line">
+            <p>lejour's story</p>
+            <b></b>
+          </div>
+        </div>
+      </section>
+      <section class="community">
+        <h2 class="screen_out">커뮤니티</h2>
+        <div data-aos="fade-out" data-aos-offset="300" data-aos-duration="2000" class="notice">
+          <div class="notice_wrap">
+            <a href="#"><span>notice</span></a>
+            <div class="notice_view_btn_wrap">
+              <a href="#">view
+                <svg viewBox="0 0 80 100" class="more_view_4">
+                  <line x1="0" y1="30" x2="80" y2="30" stroke="#fff" stroke-width="2" />
+                  <!-- <line x1="49" y1="=0" x2="60" y2="12" stroke="#333" stroke-width="0.6"/> -->
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div div data-aos="fade-out" data-aos-offset="300" data-aos-duration="2000" class="qean">
+          <div class="qean_wrap">
+            <a href="#"><span>q &amp; a</span></a>
+            <div class="qean_view_btn_wrap">
+              <a href="#">view
+                <svg viewBox="0 0 80 100" class="more_view_4">
+                  <line x1="0" y1="30" x2="80" y2="30" stroke="#fff" stroke-width="2" />
+                  <!-- <line x1="49" y1="=0" x2="60" y2="12" stroke="#333" stroke-width="0.6"/> -->
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--main_end-->
+    <footer>
+      <div class="foo_lejour_wrap">
+        <div class="foo_lejour_logo">
+          <a href="lejour.html" class="ir_pm">르주르</a>
+        </div>
+        <div class="foo_lejour_text">
+          <p><span>르주르주식회사 대표자 <b>김건우</b></span> <span>개인정보취급관리자 <b>김종석</b></span> <span>이메일 <a
+                href="#"><b>lejour90@naver.com</b></a></span> <span>사업자등록번호
+              <b>412-87-00700</b></span>
+            <span><b>주소 <a href="#">광주광역시 광산구 수완로73번길 </b>17층 3층 301호(수완동, 리코빌딩)</a></span> <span>통신판매업신고번호
+              제2017-광주광산-0506호</b></span>
+          </p>
+          <small>Copyright © All rights reserved by <span>LeJour</span></small>
+        </div>
+        <div class="foo_snsbox">
+          <a href="https://www.instagram.com/lejour_official/?hl=ko" target="_blank" title="새창"
+            class="ir_pm">instagram</a>
+          <a href="https://www.facebook.com/lejour.official/" target="_blank" title="새창" class="ir_pm">facebook</a>
+          <a href="https://www.youtube.com/@user-mp7ol7rc7w" target="_blank" title="새창" class="ir_pm">youtube</a>
+        </div>
+      </div>
+    </footer>
+    <!--footer_end-->
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+  <script>
+    $(function () {
+      var swiper = new Swiper(".review_slide_box", {
+        slidesPerView: "auto",
+        spaceBetween: 30,
+        loop: true,
+        autoplay: {
+          delay: 2000,
+        },
+
+        breakpoints: {
+          768: {
+            slidesPerView: "2",
+            spaceBetween: 10,
+            loop: true,
+          },
+          1024: {
+            slidesPerView: "3",
+            spaceBetween: 20,
+            loop: true,
+            autoplay: {
+              delay: 2000,
+            }
+          },
+          1700: {
+            slidesPerView: "4",
+            spaceBetween: 20,
+            loop: true,
+            autoplay: {
+              delay: 2000,
+            }
+          },
+        },
+        navigation: {
+          nextEl: ".re_btn_right ",
+          prevEl: ".re_btn_left",
+
+        },
+      })
+    })
+
+  </script>
+
+  <!-- slick -->
+  <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+  <script>
+    var slider = $('.best_product_img')
+    var slickOptions = {
+      slidesToShow: 4,
+      arrows: true,
+      prevArrow: $('.pr_btn_left'),
+      nextArrow: $('.pr_btn_right'),
+      responsive: [
+        {
+          breakpoint: 1700,
+          settings: {
+            slidesToShow: 3
+
+          }
+        },
+      ],
+    }
+
+    $(window).on('load resize', function () {
+      if ($(window).width() < 1006) {
+        slider.slick('unslick');
+      } else {
+        slider.not('.slick-initialized').slick(slickOptions);
+      }
+    });
+
+
+    // event_slide
+    $(function () {
+      $('.event_slider').slick({
+        autoplay: true,
+        arrows: true,
+        prevArrow: $('.e_btn_left'),
+        nextArrow: $('.e_btn_right'),
+        dots: true,
+      });
+
+
+    });
+
+
+    // visual_main_slide
+
+    $(function () {
+      $('.visual_slide_box').slick({
+        autoplay: true,
+        autoplaySpeed: 2500,
+        infinite: true,
+        speed: 1500,
+        fade: true,
+        cssEase: 'linear',
+        arrows: true,
+        prevArrow: $('.left'),
+        nextArrow: $('.right'),
+        dots: true
+      })
+    });
+
+    // text svg
+
+    $(function () {
+      $(window).scroll(function () {
+        var win_top = $(window).scrollTop()  // 스크롤의 위치 구하기
+        var win_h = $(window).height()  // 브라우저의 높이
+        $('#brand,#products,#products_2,#contents,#review').each(function () {
+          var box_top = $(this).offset().top
+
+          if (win_top >= box_top - 300) {
+            $(this).addClass('on')
+          }
+          if (win_top >= box_top - 800) {
+            $(this).addClass('on')
+          }
+        })
+      })
+    })
+
+
+    // view_circle svg 
+
+    $(function () {
+      $(window).scroll(function () {
+        var win_top = $(window).scrollTop()  // 스크롤의 위치 구하기
+        var win_h = $(window).height()  // 브라우저의 높이
+        $('.view_btn,.more_view_1,.more_view_2,.more_view_3,.more_view_4').each(function () {
+          var box_top = $(this).offset().top
+
+          if (win_top >= box_top - 300) {
+            $(this).addClass('on')
+          }
+          if (win_top >= box_top - 1100) {
+            $(this).addClass('on')
+          }
+
+        })
+      })
+      $('.view_btn,.more_view_2,.more_view_1,.more_view_3,.more_view_4').mouseenter(function () {
+        $(this).removeClass('on')
+        setTimeout(function () {
+          $('.view_btn,.more_view_2,.more_view_1,.more_view_3,.more_view_4').addClass('on')
+        }, 50)
+      })
+    })
+
+
+    // m_btn click
+
+    $(function () {
+      $('.m_btn').on('click', function () {
+        $('.m_navi').show();
+        $('.m_navi').show().animate({
+          right: 0
+        });
+      });
+      $('.close').on('click', function () {
+        $('.m_navi').hide();
+        $('.m_navi').animate({
+          right: '-' + 100 + '%'
+        });
+      });
+    });
+
+
+    //  lnb
+
+    $(function () {
+      $('.lnb>li>a:eq(0),.lnb>li>a:eq(3)').mouseenter(function () {
+        $(this).next().stop().slideDown(200);
+        $('.list_wrap,.list').stop().slideDown(200);
+      });
+
+      $('.lnb>li').mouseleave(function () {
+        $('.list_wrap,.list,.lnb>li>div').stop().slideUp(200);
+
+      });
+    });
+
+  </script>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+
+</html>
